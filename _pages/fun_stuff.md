@@ -18,3 +18,6 @@ author_profile: true
 - [Steve Jobs by Walter Issacson]()
 - [Rosie Project by Greame Simison]()
 - [The Wright Brothers by David]()
+- [Pygmalion by George Bernard Shaw]()
+- [The Animal Farm by George Orwell]()
+- [David & Goliath by Malcom Gladwell]()

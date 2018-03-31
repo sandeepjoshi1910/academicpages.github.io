@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+<img src='/images/main_img.jpg'>
+
+
 I am a CS grad student at **University of Illinois at Chicago**. I am mainly interested in Mobile App Development and DevOps. I have recently worked on Augmented Reality. Prior to grad school I woked at VMWare AirWatch in India. I have a bachelors Electronics & Communication. 
 
 # What I’m doing now
