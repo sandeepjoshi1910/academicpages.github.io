@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 3"
-collection: projects
-permalink: /projects/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+title: 'Arx Explore'
+
+permalink: /posts/2012/08/blog-post-3/
+tags:
+  - Android
+  - Java
 ---
-This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+#### What is Arx Explore?
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+Arx Explore is an Android app which makes it easier to explore the huge database of research publications on [arxiv.org](http://arxiv.org)

@@ -11,21 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* Bachelors in Engineering in Electronics & Communication, Visweswaraya Technological University, 2015, India
+* M.S. in Computer Science, University of Illinois at Chicago, 2019(expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* Graduate Researcher at Caterpillar Reseach Lab - UIC Innovation Center (Jan 2018 - )
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
+* Member of Technical Staff at VMWare AirWatch, Bangalore, India (Jul 2015 - Jun 2017)
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
+
+* Project Intern at Gas Turbine Research Establishment (DRDO), India (Sept 2014 - May 2015)
+  * Worked on the project - Wireless data transmission using solar energy harvesting
   
 Skills
 ======
