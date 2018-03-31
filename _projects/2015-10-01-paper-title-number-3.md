@@ -1,7 +1,7 @@
 ---
 title: 'Arx Explore'
 
-permalink: /posts/2012/08/blog-post-3/
+permalink: /projects/arxexplore
 tags:
   - Android
   - Java

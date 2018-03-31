@@ -1,7 +1,7 @@
 ---
 title: 'ARUI - iOS AR Library'
 
-permalink: /posts/2012/08/blog-post-1/
+permalink: /projects/arui
 tags:
   - iOS
   - Augmented Reality

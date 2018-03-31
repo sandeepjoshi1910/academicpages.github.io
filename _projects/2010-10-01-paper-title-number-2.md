@@ -1,7 +1,7 @@
 ---
 title: 'ARYouThereYet'
 
-permalink: /posts/2012/08/blog-post-2/
+permalink: /projects/aryouthereyet
 tags:
   - iOS
   - Augmented Reality

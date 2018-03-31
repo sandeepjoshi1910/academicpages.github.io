@@ -9,14 +9,20 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Swift Reference"
+    url: /swiftref/
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Fun Stuff"
+    url: /fun_stuff/
+
+  # - title: "Talks"
+  #   url: /talks/    
+
+  # - title: "Teaching"
+  #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
     
   - title: "Guide"
     url: /markdown/
