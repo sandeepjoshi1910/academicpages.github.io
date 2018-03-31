@@ -78,12 +78,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "sandeep.PNG"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Sandeep Joshi"
+  avatar           : "sandeep.JPG"
+  bio              : "Mobile Dev and CS Grad student"
+  location         : "Chicago"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
   uri              :
   bitbucket        :
@@ -104,7 +103,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@sandeep_oct"
   vine             :
   weibo            :
   xing             :
