@@ -1,5 +1,5 @@
 ---
-permalink: /fun_stuff
+permalink: /fun_stuff/
 title: "Fun Stuff"
 author_profile: true
 

@@ -1,5 +1,5 @@
 ---
-permalink: /swiftref
+permalink: /swiftref/
 title: "Swift Reference"
 author_profile: true
 
