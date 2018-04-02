@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src='/images/main_img.jpg'>
+<img src='/images/sandeep_main.jpg'>
 
 
 I am a CS grad student at **University of Illinois at Chicago**. I am mainly interested in Mobile App Development and DevOps. I have recently worked on Augmented Reality. Prior to grad school I woked at VMWare AirWatch in India. I have a bachelors Electronics & Communication. 
@@ -16,6 +16,7 @@ I am a CS grad student at **University of Illinois at Chicago**. I am mainly int
 # What I’m doing now
 
 - A project to automatically grade TOEFL essays using various NLP techniques
+- Project to find most common patterns in bug fixes across multiple repositories in GitHub
 
 # Recent posts
 
