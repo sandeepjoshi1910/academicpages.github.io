@@ -14,10 +14,18 @@ author_profile: true
 
 ## Books I recommend
 
-- [Superforecasting by Phillip. E. Tetlock]()
-- [Steve Jobs by Walter Issacson]()
-- [Rosie Project by Greame Simison]()
-- [The Wright Brothers by David]()
-- [Pygmalion by George Bernard Shaw]()
-- [The Animal Farm by George Orwell]()
-- [David & Goliath by Malcom Gladwell]()
+- Superforecasting by Phillip. E. Tetlock
+- Steve Jobs by Walter Issacson
+- Rosie Project by Greame Simison
+- The Wright Brothers by David McCullough
+- Pygmalion by George Bernard Shaw
+- The Animal Farm by George Orwell
+- David & Goliath by Malcom Gladwell
+
+## Podcasts I like
+
+* Longform
+* Our last Week
+* Freakonomics
+* The Intersection
+* Stay Tuned by Preet Bharara

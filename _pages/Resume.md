@@ -11,14 +11,15 @@ redirect_from:
 
 ## Education
 
-* Bachelors in Engineering in Electronics & Communication, Visweswaraya Technological University, 2015, India
-* M.S. in Computer Science, University of Illinois at Chicago, 2019(expected)
+* **M.S. in Computer Science**, University of Illinois at Chicago, 2019(expected)
+* **Bachelors of Engineering in Electronics & Communication**, Visweswaraya Technological University, 2015, India
+
 
 ## Work experience
 
 * **Graduate Researcher at Caterpillar Reseach Lab - UIC Innovation Center (Jan 2018 - )**
   * Working on projects concerned with activity detection and safety wearables funded by Caterpillar
-  * Supervisor: Prof. Ugo Buy and Prof. Don Bergh
+  * Supervisors: [Prof. Ugo Buy](https://www.cs.uic.edu/k-teacher/ugo-buyphd/) and [Prof. Don Bergh](http://design.uic.edu/people/don-bergh)
 
 * **Member of Technical Staff at VMWare AirWatch, Bangalore, India (Jul 2015 - Jun 2017)**
   * Fixed various bugs, refactored parts of the codebase and swiftly handled customer escalations of AirWatch Agent on macOS
@@ -38,6 +39,17 @@ redirect_from:
 
 ## Languages 
 Swift, Objective - C, Java, Python
+
+## Graduate Coursework
+
+### Spring 2018
+  * CS 421 : Natural Langauge Processing
+  * CS 540 : Advanced Topics in Software Engineering
+  * CS 583 : Data Mining & Text Mining
+
+### Fall 2017
+  * CS 491 : Augmented & Virtual Reality
+  * CS 478 : Software Development for Mobile Platforms
 
 <!-- Publications
 ======

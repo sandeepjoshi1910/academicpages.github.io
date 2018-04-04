@@ -19,26 +19,22 @@ let blurEffect = UIBlurEffect(style: .regular)
 let blurredEffectView = UIVisualEffectView(effect: blurEffect)
 blurredEffectView.frame = view.bounds
 view.addSubview(blurredEffectView)
-
 ```
 
 Add a Label to blur view
 
 ``` swift
-
 let tLabel : UILabel = UILabel()
 tLabel.text = "Good Morning"
 tLabel.font = UIFont(name: "Futura", size: 30)
 tLabel.textColor = UIColor.white.withAlphaComponent(0.6)
 tLabel.frame = blurredEffectView.contentView.bounds
 blurredEffectView.contentView.addSubview(tlabel)
-
 ```
 
 Adding vibrancy and a label
 
 ``` swift
-
 let vibrancyEffect = UIVibrancyEffect(blurEffect: blurEffect)
 let vibrancyView = UIVisualEffectView(effect: vibrancyEffect)
 vibrancyView.frame = blurredEffectView.contentView.bounds
@@ -46,15 +42,14 @@ vibrancyView.contentView.addSubview(tLabel)
 tLabel.frame = vibrancyView.contentView.bounds
 blurredEffectView.contentView.addSubview(vibrancyView)
 view.addSubview(blurredEffectView)
-
 ```
 
 <img src='/images/ios_blur.png'>
 
 ### References
 
-- [RayWanderlich’s UIVisualEffectView tutorial]
-- [Working with UIVisualEffectView]
-- [StackOverflow question on blur & vibrancy]
-- [OmniDev website’s guide on blur & vibrancy]
-- [Hacking with Swift’s article on blur & vibrancy]
+- [RayWanderlich’s UIVisualEffectView tutorial](https://www.raywenderlich.com/178486/uivisualeffectview-tutorial-getting-started)
+- [Working with UIVisualEffectView](https://ios8programminginswift.wordpress.com/2014/08/16/working-with-uivisualeffectview-blurview-coding/)
+- [StackOverflow question on blur & vibrancy](https://stackoverflow.com/questions/28831372/how-to-add-uivibrancyeffect-to-an-existing-uilabel-iboutlet)
+- [OmniDev website’s guide on blur & vibrancy](https://www.omnigroup.com/developer/how-to-make-text-in-a-uivisualeffectview-readable-on-any-background)
+- [Hacking with Swift’s article on blur & vibrancy](https://www.hackingwithswift.com/example-code/uikit/how-to-add-blur-and-vibrancy-using-uivisualeffectview)
