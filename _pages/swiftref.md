@@ -6,17 +6,23 @@ author_profile: true
 ---
 
 
-## Locations of key files/directories
+## The Basics
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+### Constant & Variables
+
+Constants are declared by `let` and variables by `var`. Type is not necessary while declaring them but can also be specified.
+
+``` swift
+let numOfHorses = 20
+let pi = 3.14
+var numDataPoints = 20
+
+var noOfPagesLeft : Int = 35
+var currentSwiftVersion : float = 4.1
+```
+
+Multiple variables of same type can be defined in a single line
+
+``` swift
+var noOfChars, noWords, noOfSentences: Int
+```
