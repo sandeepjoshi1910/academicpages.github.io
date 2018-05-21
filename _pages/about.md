@@ -11,7 +11,7 @@ redirect_from:
   2342 W. Harrison St, Apt 3<br /> Chicago, IL 60612<br /> United States
 </address>
 Email: [sjoshi37@uic.edu](mailto:sjoshi37@uic.edu)
-<img src='/images/sandeep_main.jpg'>
+<img src='/images/mills_park.jpeg'>
 
 
 
