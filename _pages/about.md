@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 <address>
-  2342 W. Harrison St, Apt 3<br /> Chicago, IL 60612<br /> United States
+  1021 S Racine Ave.<br /> Chicago, IL 60607<br /> United States
 </address>
 Email: [sjoshi37@uic.edu](mailto:sjoshi37@uic.edu)
+
+
+
 <img src='/images/mills_park.jpeg'>
 
 
@@ -19,7 +22,7 @@ I am a CS grad student at **University of Illinois at Chicago**. I am mainly int
 
 ## Research Interests
 
-- Creating Augmented Reality applications to accelerate education in the field of physics and chemistry. 
+- Creating Augmented Reality applications to accelerate education in the field of physics and chemistry.
 - Using Natural Language Processing to build semantic search for datasets.
 
 

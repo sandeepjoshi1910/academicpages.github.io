@@ -37,4 +37,11 @@ In floating Point Integers, `Float` represents 32 bit floating point number and 
 
 Swift automatically determines the type of the variable/constant by processing the value or the expression assigned to it without the user explicitly specifying the type. This is helpful while declaring some constants.
 
+#### Numeric Literals
 
+| Literal Type  | Representation |
+| ------------- |:--------------:| 
+| Decimal       | right-aligned  | 
+| Binary        | centered       | 
+| Octal         | are neat       | 
+| Hexadecimal   | are neat       | 

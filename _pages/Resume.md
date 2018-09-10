@@ -42,6 +42,10 @@ Swift, Objective - C, Java, Python
 
 ## Graduate Coursework
 
+### Fall 2018
+  * CS 476 : Programming Language Design
+  * CS 553 : Distributed Computing Systems
+
 ### Spring 2018
   * CS 421 : Natural Langauge Processing
   * CS 540 : Advanced Topics in Software Engineering

@@ -24,14 +24,21 @@ body { margin: 0; }
 
 /* Selected elements */
 
-::-moz-selection {
-  color: #fff;
-  background: #000;
-}
+// ::-moz-selection {
+//   color: #fff;
+//   background: #000;
+// }
+
+// ::selection {
+//   color: #fff;
+//   background: #000;
+// }
 
 ::selection {
-  color: #fff;
-  background: #000;
+  background: #D5F5E3; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #D5F5E3; /* Gecko Browsers */
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
