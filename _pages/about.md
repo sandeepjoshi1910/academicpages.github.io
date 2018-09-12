@@ -14,7 +14,7 @@ Email: [sjoshi37@uic.edu](mailto:sjoshi37@uic.edu)
 
 
 
-<img src='/images/mills_park_new.jpeg'>
+<img align="right" src='/images/mills_park_new.jpeg'>
 
 
 
