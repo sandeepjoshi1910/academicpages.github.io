@@ -33,15 +33,60 @@ Swift has signed and unsigned integers in 8 to 64 bit forms. `.min` and `.max` g
 
 In floating Point Integers, `Float` represents 32 bit floating point number and `Double` represents 64 bit floating point number.
 
-#### Type Inference
+## Protocols
 
-Swift automatically determines the type of the variable/constant by processing the value or the expression assigned to it without the user explicitly specifying the type. This is helpful while declaring some constants.
+Protocol is a blueprint of **methods**, **properties** that are related to a particular task or a functionality.
 
-#### Numeric Literals
+Protocols can be adopted by
+1) Classes
+2) Structures
+3) enums
 
-| Literal Type  | Representation |
-| ------------- |:--------------:| 
-| Decimal       | right-aligned  | 
-| Binary        | centered       | 
-| Octal         | are neat       | 
-| Hexadecimal   | are neat       | 
+Any type that satisfies the requirements is said to **conform** to that protocol.
+
+Non conformance of the protocol after any of the above types adopt it generates a **Compiler Error**
+
+Type mothods and properties have to be prefixed with `static` keyword when defined in a protocol even when implemented they'll be replaced by `class` or `static` keyword.
+
+### Syntax
+
+```swift
+protocol ExampleProtocol {
+    func method_one()
+}
+
+class Test:Object, ExampleProtocol {
+    func method_one() {
+        return 0
+    }
+}
+```
+
+### Property Requirements
+
+* Protocol can require an instance property or a type property
+* Requires 1) Name 2) Type
+* Protocol specifies whether the property should be 1) gettable 2) gettable and settable
+
+```swift
+protocol Person {
+    var firstName : String {get set}
+    var age : Int {get}
+}
+```
+
+### Method Requirements
+
+* Methods can be instance methods or type methods
+* Variadic parameters are allowed but default parameters are not allowed in protocol definition
+* Type methods require a `static` prefix when defined in a protocol
+
+```swift
+
+protocol Color {
+    func rgb(r : Int, g : Int, b : Int) -> UIColor
+}
+
+```
+
+
