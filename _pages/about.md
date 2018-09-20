@@ -14,21 +14,19 @@ Email: [sjoshi37@uic.edu](mailto:sjoshi37@uic.edu)
 
 
 
-<img align="right" src='/images/mills_park_new.jpeg'>
-
-
+<img alight="left" src='/images/mills_park_small.png'>
 
 I am a CS grad student at **University of Illinois at Chicago**. I am mainly interested in Mobile App Development. I have recently worked on Augmented Reality, DevOps and NLP. Prior to grad school I woked at VMWare AirWatch in India. I have a bachelors in Electronics & Communication.
 
 ## Research Interests
 
-- Analysing patterns in software projects and apps
-- Creating Augmented Reality applications to accelerate education in the field of physics and chemistry.
+  * Analysing patterns in software projects and apps<br />
+  * Creating Augmented Reality applications to accelerate education in the field of physics and chemistry.
 
 # What I’m doing now
 
-- An iOS app to schedule meetings between people in different timezones
-- Empirical analysis of Android apps
+  * An iOS app to schedule meetings between people in different timezones<br />
+  * Empirical analysis of Android apps
 
 # Recent posts
 
