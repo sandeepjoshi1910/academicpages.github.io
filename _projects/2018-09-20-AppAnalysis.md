@@ -1,7 +1,7 @@
 ---
 title: 'Empirical Analysis of Play Store Applications'
 
-permalink: /projects/jenkinsanalysis
+permalink: /projects/playstoreanalysis
 tags:
   - Android
   - Manifest files

@@ -26,7 +26,7 @@ I am a CS grad student at **University of Illinois at Chicago**. I am mainly int
 # What I’m doing now
 
   * An iOS app to schedule meetings between people in different timezones<br />
-  * Empirical analysis of Android apps
+  * [Empirical analysis of Android apps](https://sandeepjoshi1910.github.io/projects/playstoreanalysis)
 
 # Recent posts
 
