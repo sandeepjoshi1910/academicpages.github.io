@@ -33,6 +33,155 @@ Swift has signed and unsigned integers in 8 to 64 bit forms. `.min` and `.max` g
 
 In floating Point Integers, `Float` represents 32 bit floating point number and `Double` represents 64 bit floating point number.
 
+
+## Optionals
+
+Optionals are used when it is unknown whether a value of the specific type will be set to the variable.
+
+`Int?` is read as Int Optional and it can hold `nil` and `Int` values.
+
+A declaration `var currentVelocity: Float?` instantly stores a `nil` to the variable. So `nil` can't be used with any other constants or variables which are not optional as `nil` represents absence of a value and that can happen only with optional types.
+
+Optional types of `Any` can be set to `nil` and not just Object types. This includes all objects and enums, functions etc.
+
+Using `!` an optional value can be unwrapped. For ex. `var someStr : String? = "example"` can be force unwrapped as `print(someStr!)` to extract the value. We do this when we are sure the optional variable consists the value.
+
+### Optional Binding
+
+This is used to unwrap an optional variable and make the value available in a temporary variable else let us handle the case when the variable has `nil`. This eliminated the use of `!` or force unwrapping of the optional variable.
+
+``` swift
+
+if let someUnwrappedVal = optionalVar {
+    // optionalVar has some value and is available in const someUnwrappedVal
+} else {
+    // Handle the case when optionalVar is nil
+}
+
+if var someUnwrappedVal = optionalVar {
+    // optionalVar has some value and is available in var someUnwrappedVal
+} else {
+    // Handle the case when optionalVar is nil
+}
+
+```
+
+## Strings
+
+#### Basic Syntax
+
+``` swift
+let someStr = "A String"
+
+let mlineStr = """
+line 1
+line2
+"""
+```
+Strings are value types. This means strings are passed by value, they are copied and sent to functions/methods.
+
+#### Empty String
+
+`let str = "" var someStr = String()`
+
+To check if a string is empty, 
+``` swift
+if str.isEmpty {
+    // Do something
+}
+```
+#### Iterating over characters in a string
+
+```swift
+    for character in "Swift-Language" {
+        print(character)
+    }
+```
+
+#### Constructing a String from characters
+``` swift
+let chars : [Character] = ['s','w','i','f','t']
+
+let lang = String(chars)
+```
+
+#### String and Character concatenation
+
+``` Swift
+    let str1 = "Rick"
+    let str2 = " and Morty"
+    var show = str1 + str2
+
+    show.append('!')
+```
+
+#### String count
+
+` string.count `
+
+#### Indexing
+
+``` swift
+
+let str = "Macbook pro"
+let stIndex  = str.startIndex
+let endIndex = str.endIndex
+
+// Access a character at an index
+print(str[stIndex])
+
+// To extract a character at a position
+print(str[str.index(stIndex, offsetBy: 3)])
+
+
+// To extract a character at before position indicated by an index
+print(str[str.index(before: endIndex)])
+
+
+// To extract a character after a position indicated by an index
+print(str[str.index(after: stIndex)])
+```
+
+#### Inserting and Removing characters
+
+##### Inserting
+``` swift
+
+var str = "lorem ipsum"
+
+// Inserting a single character at an index
+str.insert(".", at: str.endIndex)
+
+// Inserting a string at an index
+str.insert(contentsOf: " script", at: str.index(before: str.endIndex))
+
+```
+
+##### Removing
+
+``` swift
+
+var str = "swift"
+
+str.remove(at: str.index(before: str.startIndex))
+
+// Removing more than one character needs a range of indices and chars at that range will be removed.
+
+let removeRange = str.startIndex..<str.index(str.startIndex,offsetBy:4)
+
+str.removeSubrange(removeRange)
+
+```
+> You can use the `insert(_:at:), insert(contentsOf:at:), remove(at:), and removeSubrange(_:)` methods on any type that conforms to the `RangeReplaceableCollection` protocol. This includes String, as shown here, as well as collection types such as Array, Dictionary, and Set.
+
+
+#### Substrings
+
+
+
+
+
+
 ## Protocols
 
 Protocol is a blueprint of **methods**, **properties** that are related to a particular task or a functionality.
