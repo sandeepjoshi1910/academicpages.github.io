@@ -14,9 +14,8 @@ tags:
   - HackHarvard 2018
 ---
 
-<img src='/images/stc.jpeg'>
 
-Speech to code is a hackathon project done at Harvard University during HackHarvard 2018. The project is built into 4 parts.
+> Speech to code is a hackathon project done at Harvard University during HackHarvard 2018.
 
 ## Inspiration
 
@@ -43,6 +42,8 @@ We definitely learned about Google Cloud APIs and Microsoft LUIS. This helped us
 
 ## What's next for Iris
 Next, we hope to expand Iris for even more commands, package the application in a cleaner way for faster distribution, and iterate to an even better product!
+
+<img src='/images/stc.jpeg'>
 
 
 ### Links to Repo
