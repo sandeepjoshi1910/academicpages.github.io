@@ -14,7 +14,7 @@ tags:
 
 ## Code for the Interpreter and Gradual Type Checker
 
-''' OCaml
+``` OCaml
 
 open List
 
@@ -420,4 +420,4 @@ let rec typecheck_class_table (ct: class_table) (cls: ident list) (tc: tycon) : 
 
 
 
-'''
+```
