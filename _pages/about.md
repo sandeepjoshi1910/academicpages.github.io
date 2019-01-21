@@ -14,7 +14,7 @@ Email: [sjoshi37@uic.edu](mailto:sjoshi37@uic.edu)
 
 
 
-<img alight="left" src='/images/mills_park_small.png'>
+<img style="float:left; margin-right: 20px; margin-bottom: 10px;" src='/images/mills_park_small.png'>
 
 I am a CS grad student at **University of Illinois at Chicago**. I am mainly interested in Mobile App Development and Program Verification. I have recently worked on Augmented Reality, DevOps and NLP. Prior to grad school I woked at VMWare AirWatch in India. I have a bachelors in Electronics & Communication.
 
