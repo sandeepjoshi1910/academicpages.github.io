@@ -29,6 +29,11 @@ I am a CS grad student at **University of Illinois at Chicago**. I am mainly int
   * An iOS app to schedule meetings between people in different timezones<br />
   * Working on Program Verification with Coq
 
+# Talks at Meetups
+
+ * [What is Gradual Typing?](https://sandeepjoshi1910.github.io/projects/gradool) - at NSCoder on 11/27/18
+ * [ARUI Library Demo](https://sandeepjoshi1910.github.io/projects/arui) - at NSCoder on Feb 2018
+
 # Recent posts
 
 - [iOS Dev reference - Blur & Vibrancy](https://medium.com/@sandeepjoshi1910/ios-dev-reference-blur-vibrancy-24f068f1182c)
