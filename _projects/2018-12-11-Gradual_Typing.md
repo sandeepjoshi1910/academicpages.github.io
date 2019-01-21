@@ -11,10 +11,39 @@ tags:
   - OCaml
 ---
 
+### What is Gradual Typing?
+
+[Gradual Typing](https://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/) is a type system which integrates dynamic and static type system. Dynamic and Static type systems have their advantages and disadvantages. Dynamic type system allows rapid prototyping, is easy to learn and allows for more flexibility. On the other hand, Static typing ensures there are less bugs before hand, far faster than dynamically typed languages, since these are compiled, there is room for optimization. Also sound type systems ensure higher developer productivity. 
+
+But when dealing with situations where we don't know the type of data (receiving data from a message queue), static type systems make it hard to work with and dynamic type systems allows us to simply cast them to the assumed data structure. Whereas static type systems have to go through series of steps for the received data to be useful.
+
+Gradual typing aims to give programmer the option to use dynamic or static typing for any part of the code in a single language. Whcihever part of the code is statically typed is type checked and ensures there are no type errors in that part of the code.
+
+### Implementation
+
+Jeremy Siek introduces a concept called type consistency to facilitate the use of both typing systems. We introduce a new type called `Dynamic` which doesn't appear anywhere in the object inheritence hierarchy. This is different from the previous approaches which used upcasting to Object to enable untyped code to exist with statically typed code. But that creates problems because, once upcasted, downcasting is unsafe. One of the important aspects of gradual typing is statially typed part of the code should never have type errors during runtime.
+
+#### Dynamic type and type consistency
+A new type `Dynamic` is introduced
+ and `~` refers to Consistent relation
+
+**Type Consistency Rules**
+
+* `Dynamic ~ any type`
+* Any type is consistent with itself. `Int ~ Int`
+* A type is not consistent with another type (unless its a super class type). `Int ~ Bool`
+* A data structure with multiple types are consistent with another data structure if the corresponding types 
+are consistent.
+    Ex. `(Int,Bool,Dynamic) ~ (Int,Bool,Bool)`
+
+#### Note:
+* The [original paper on Gradual typing](http://scheme2006.cs.uchicago.edu/13-siek.pdf) and a later paper on [refined critera for gradual typing](http://homes.sice.indiana.edu/mvitouse/papers/snapl15.pdf) are specified for functional language. I am still trying to figure out the exact rules for type consistency in case of object oriented language.
+
+* I have not implemented type inference and assumed a variable maps to a reference containing an object. Using type inference while type checking needs to be done.
 
 ## Code for the Interpreter and Gradual Type Checker
 
-``` OCaml
+``` Swift
 
 open List
 
