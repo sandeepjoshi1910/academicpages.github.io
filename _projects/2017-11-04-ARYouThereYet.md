@@ -10,7 +10,7 @@ tags:
 
 <img src='/images/aryouthereyet_images/aryouthereyet_splashscreen2.png'><br>
 
-Here is the video of the app in action.
+Here is the [video](https://www.youtube.com/watch?v=U6ChLMEDQh0) of the app in action.
 
 ARYouThereYet is an iOS application aimed towards the augmented reality experience. The application uses Apple’s ARKit library to generate augmented reality objects and nodes. The application is a location and navigation based experience built primarily for pedestrians walking on city streets and want to find establishments that may interest them. The application uses Google’s Places API, Mapbox API, and Apple’s CoreLocation framework to get location data whenever needed. A typical use-case for this application would be:
 

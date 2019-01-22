@@ -29,9 +29,9 @@ A new type `Dynamic` is introduced
 
 **Type Consistency Rules**
 
-* `Dynamic ~ any type`
-* Any type is consistent with itself. `Int ~ Int`
-* A type is not consistent with another type (unless its a super class type). `Int ~ Bool`
+* `Dynamic ~ T` Any type T is consistent with type Dynamic.
+* Any type is consistent with itself. `T ~ T`
+* A type is not consistent with another type (unless its a super class type). `Int !~ Bool`
 * A data structure with multiple types are consistent with another data structure if the corresponding types 
 are consistent.
     Ex. `(Int,Bool,Dynamic) ~ (Int,Bool,Bool)`
