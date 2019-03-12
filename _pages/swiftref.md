@@ -238,4 +238,67 @@ protocol Color {
 
 ```
 
+### Dictionaries
 
+Dictionary is a map between keys of same type and values of same type. Dictionary key *must conform to hashable protocol*. Type of the dictionary can be inferred using type inference.
+
+##### Initializing a dictionary
+
+``` swift
+let map : [String:Int] = [:]
+let map = [String:Int]()
+
+var charCount : [String:Int] = ["a":1,"b":2,"c":3,"d":4]
+```
+
+##### Various operations on dictionary
+
+##### Count
+```swift 
+dict.count
+```
+
+##### Empty Check
+``` swift 
+dict.isEmpty
+```
+
+##### Add Item
+``` swift 
+dict["a"] = 4 
+```
+
+##### Remove Item
+``` swift 
+dict["a"] = nil 
+```
+
+##### Iterating dict
+```swift 
+for (key,value) in dict {
+    print("Key : \(key) and Value: \(value)")
+}
+```
+
+##### Iterating over Keys
+
+``` swift
+for key in dict.keys {
+    print(key)
+}
+```
+
+##### Iterating over values
+
+``` swift
+for value in dict.values {
+    print(value)
+}
+```
+
+##### Get an array of keys or values
+
+``` swift
+let keyArray = [String](dict.keys)
+let valueArray = [Int](dict.values)
+```
