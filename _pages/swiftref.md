@@ -302,3 +302,23 @@ for value in dict.values {
 let keyArray = [String](dict.keys)
 let valueArray = [Int](dict.values)
 ```
+
+
+## Swift Questions
+
+### 1. When do we use `@objc` and why?
+
+Answer/Notes from this blog post on [SwiftUnboxed](https://swiftunboxed.com/interop/objc-dynamic/) : 
+Sometimes when we have to use a function as a selector, we need to declare the func as @objc because,
+selector is an Objective C concept. Generally @objc makes the swift code available to Objective C and
+the Objective C runtime.
+
+1. @objc makes things visible to Objective C code. Need this for setting up target/action on buttons
+    and gesture recognizers.
+2. Dynamic opts in for dynamic dispatch. Need this for KVO support
+3. Only way to do dynamic dispatch currently is through the Objective C runtime. So need to use
+    @objc if you also use dynamic.
+    
+### 2. What is the difference between awakeFromNib and ViewDidLoad?
+
+AwakeFromNib is called when the nib file is loaded. ViewDidLoad is called when the view is loaded in the viewControllers.
