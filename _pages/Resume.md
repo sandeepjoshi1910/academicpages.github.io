@@ -38,9 +38,14 @@ redirect_from:
 * Software Development & Design
 
 ## Languages 
+
 Swift, Objective - C, Java, Python
 
 ## Graduate Coursework
+
+### Spring 2019
+  * CS 494 : Software Foundations (Formal Methods and Program Verification)
+  * Project Research : Working on the webserver project of DeepSpec
 
 ### Fall 2018
   * CS 476 : Programming Language Design
