@@ -304,6 +304,14 @@ let valueArray = [Int](dict.values)
 ```
 
 
+### Initialization
+
+The process of preparing an instance of class, struct or enum to be ready for use. It involves setting all the class properties and any other initialization before it can be used. Any properties which are not optional have to have either a default inital value while definition of the property or initialized to a value in the init method.
+
+> Swift initializers doesn't return anything unlike Objective C initializers
+
+Initializers need to have argument labels when called. This way swift figures which initializer to call when there is more than one initializer.
+
 ## Swift Questions
 
 ### 1. When do we use `@objc` and why?
